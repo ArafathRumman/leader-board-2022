@@ -16,7 +16,8 @@ hr {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.top-player-and-blogs-section {
+.top-player-Container,
+.letest-course-Container {
   width: 870px;
   background-color: #ffffff;
   padding-left: 30px;
@@ -82,4 +83,31 @@ hr {
   text-decoration: none;
   font-size: 16px;
   color: #562eff;
+}
+
+/* Top blog style End */
+
+.course .course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+}
+.course-info p {
+  padding: 0px 19px 0px 5px;
+}
+.course-duration {
+  background-color: #ffe4e8;
+  border-radius: 20px;
+  padding: 0px 10px;
+  color: #ff4a60;
+}
+
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #9f9f9f;
 }
